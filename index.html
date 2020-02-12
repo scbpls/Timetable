@@ -14,8 +14,6 @@
             padding: 0;
         }
         body {
-            grid-template-areas:
-                "details table";
             background-color: #2E3B4E;
         }
         p {
@@ -27,7 +25,6 @@
             height: 60px;
         }
         summary {
-            grid-area: details;
             font-weight: bold;
             margin-left: 8px;
             margin-top: 4px;
@@ -84,10 +81,8 @@
             font-size: 18px;
         }
         table {
-            grid-area: table;
-            position: relative;
-            left: 50%;
-            transform: translateX(-50%);
+            margin-left: 120px;
+            margin-right: 20px;
             margin-top: 20px;
             margin-bottom: 20px;
             border-collapse: collapse;
