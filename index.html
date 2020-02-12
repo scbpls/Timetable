@@ -14,6 +14,8 @@
             padding: 0;
         }
         body {
+            grid-template-areas:
+                "details table";
             background-color: #2E3B4E;
         }
         p {
@@ -25,6 +27,7 @@
             height: 60px;
         }
         summary {
+            grid-area: details;
             font-weight: bold;
             margin-left: 8px;
             margin-top: 4px;
@@ -81,6 +84,7 @@
             font-size: 18px;
         }
         table {
+            grid-area: table;
             position: relative;
             left: 50%;
             transform: translateX(-50%);
@@ -97,7 +101,6 @@
 </head>
 <body>
 </details><details id="AB"><p class="naucz">AB</p><summary>AB</summary>
-    <table>
     <table><tr><td></td><td class="tyg">Poniedziałek</td><td class="tyg">Wtorek</td><td class="tyg">Środa</td><td class="tyg">Czwartek</td><td class="tyg">Piątek
     </td></tr>
     <tr> <td class="godz"> 8:00&ndash;8:45 </td>
