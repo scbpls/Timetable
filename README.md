@@ -1,2 +1,2 @@
 # Timetable
-School's project
+The School's project about timetable for teachers, students and classrooms
